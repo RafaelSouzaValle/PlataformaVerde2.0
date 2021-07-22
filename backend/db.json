@@ -1,0 +1,25 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Fulano",
+        "cpf": "000.000.000-0",
+        "nascimento": "10/07/1988",
+        "estado": "SP",
+        "cidade": "São Paulo"
+    }, {
+        "id": 2,
+        "name": "Beltrano",
+        "cpf": "000.000.000-0",
+        "nascimento": "11/07/1986",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro"
+    }, {
+        "id": 3,
+        "name": "Ciclano",
+        "cpf": "000.000.000-0",
+        "nascimento": "20/09/1985",
+        "estado": "MG",
+        "cidade": "Belo Horizonte"
+    }]
+ }
+ 
