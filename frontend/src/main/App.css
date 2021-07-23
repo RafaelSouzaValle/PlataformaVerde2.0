@@ -1,0 +1,44 @@
+:root {
+    --greenplat-color: #5CAC21;
+    --title-color: #515151;
+    --label-color: #202020;
+    --obrigatorio-color: #303030;
+  
+    --logo-height: 80px;
+    --header-height: 80px;
+    --aside-width: 77.73px;
+  
+    --shadow: 0px 2px 2px #00000067;
+ }
+ 
+ * {
+    box-sizing: border-box;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif, sans-serif
+ }
+  
+ .app {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: var(--aside-width) 1fr;
+    grid-template-rows:
+        var(--header-height)
+        1fr;
+    grid-template-areas:
+        "logo header"
+        "content content";
+    height: 100vh;
+    background-color: #ffffff;
+ }
+  
+ aside.logo {
+    grid-area: logo;
+ }
+  
+ header.header {
+    grid-area: header;
+ }
+  
+ main.content {
+    grid-area: content;
+ }
+ 
