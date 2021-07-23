@@ -1,0 +1,13 @@
+aside.logo {
+    background-color: var(--bg-topo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+  
+ aside.logo img {
+    padding: 0px;
+    width: 100%;
+ }
+ 
