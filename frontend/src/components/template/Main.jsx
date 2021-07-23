@@ -12,7 +12,7 @@ export default props =>
                 <div className="obrigatorio">*campos obrigatórios</div>
             </div>
             <hr />
-            <div className="formContent">
+            <div className="mt-4">
                 {props.children}
             </div>
         </main>

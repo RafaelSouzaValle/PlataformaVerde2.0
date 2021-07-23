@@ -1,20 +1,28 @@
 {
   "users": [
     {
-      "id": 2,
-      "name": "Beltrano",
-      "cpf": "000.000.000-0",
-      "nascimento": "11/07/1986",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "name": "Beltrabo",
+      "cpf": "00000000000",
+      "nascimento": "2021-07-08",
+      "estado": "SP",
+      "cidade": "Itu",
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Ciclano",
-      "cpf": "000.000.000-0",
-      "nascimento": "20/09/1985",
+      "cpf": "000.000.000-00",
+      "nascimento": "2021-07-07",
       "estado": "MG",
-      "cidade": "Belo Horizonte"
+      "cidade": "Belo Horizonte",
+      "id": 3
+    },
+    {
+      "name": "Pessoa 1",
+      "cpf": "00000000000",
+      "nascimento": "2021-07-07",
+      "estado": "SP",
+      "cidade": "Itu",
+      "id": 4
     }
   ]
 }

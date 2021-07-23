@@ -3,6 +3,7 @@
     background: transparent url('../../assets/imgs/remove.png') 0% 0% no-repeat padding-box;
     background-position: center;
     border: 0ch;
+    text-align: center;
   }
   
   .td-edit {
@@ -10,24 +11,35 @@
     background: transparent url('../../assets/imgs/edit.png') 0% 0% no-repeat padding-box;
     background-position: center;
     border: 0ch;
-  }
-
-  td {
-    align-items: center;
+    text-align: center;
   }
 
   .button-col {
-    margin-top: 30px;
-    align-items: flex-end;
+    margin-top: 31px;
     top: 330px;
-    left: 1130px;
-    width: 176px;
-    height: 30px;
-    background: #5CAC21 0% 0% no-repeat padding-box;
+    height: 29px;
+    background: #5CAC21 0% 0% no-repeat;
     border-radius: 4px;
     opacity: 1;
+    font-size: small;
   }
   
   input {
     height: 30px;
+  }
+
+  th {
+    background-color: #E0E0E0;
+    font-size: small;
+  }
+
+  td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E0E0E0;
+    font-size: small;
+  }
+
+  .td-align {
+    text-align: center;
   }
