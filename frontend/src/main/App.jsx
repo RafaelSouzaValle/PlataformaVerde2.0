@@ -12,6 +12,7 @@ export default props =>
     <BrowserRouter>
         <div className="app">
             <Logo />
+            <Routes />
             <Main icon="home" title="Início"
                 subtitle="Projeto usando React" />
         </div>
