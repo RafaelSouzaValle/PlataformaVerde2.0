@@ -128,7 +128,7 @@ export default class UserCrud extends Component {
 
     renderTable() {
         return (
-            <table className="table mt-4">
+            <table className="table-action table mt-4">
                 <thead>
                     <tr>
                         <th>NOME COMPLETO</th>
@@ -176,9 +176,13 @@ export default class UserCrud extends Component {
 
         return (
             <Main>
-                <div className="formContent">
-                    {this.renderForm()}
-                    {this.renderTable()}
+                <div className="container formContent">
+                    <div className="row">
+                        <div className="col-12 col-md-12">
+                            {this.renderForm()}
+                            {this.renderTable()}
+                        </div>
+                    </div>
                 </div>
             </Main>
         )

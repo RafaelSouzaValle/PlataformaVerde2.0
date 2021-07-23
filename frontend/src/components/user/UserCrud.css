@@ -15,9 +15,9 @@
   }
 
   .button-col {
-    margin-top: 31px;
+    margin-top: 30px;
     top: 330px;
-    height: 29px;
+    height: 30px;
     background: #5CAC21 0% 0% no-repeat;
     border-radius: 4px;
     opacity: 1;
@@ -42,4 +42,22 @@
 
   .td-align {
     text-align: center;
+  }
+
+  @media (max-width: 770px) {
+  
+    .table-action thead {
+      display: none;
+    }
+
+    .table-action tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    .table-action td {
+      border: 0;
+    }
+
+    .table-action td:not(:first-child) {
+      display: block;
+    }
   }
