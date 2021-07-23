@@ -5,14 +5,14 @@ import Header from "./Header"
 export default props =>
     <React.Fragment>
         <Header />
-        <main className="content container-fluid">
-            <div className="subHeader p-3 mt-3">
-                <div className="icon ub-sub-header"></div>
-                <div className="title ub-sub-header">Cadastro Usuário</div>
-                <div className="obrigatorio ub-sub-header">*campos obrigatórios</div>
+        <main className="content container">
+            <div className="subHeader">
+                <div className="icon"></div>
+                <div className="title">Cadastro Usuário</div>
+                <div className="obrigatorio">*campos obrigatórios</div>
             </div>
             <hr />
-            <div className="formContent p-3 mt-3">
+            <div className="formContent">
                 {props.children}
             </div>
         </main>

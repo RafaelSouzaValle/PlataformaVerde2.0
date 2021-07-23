@@ -1,0 +1,33 @@
+.td-remove {
+    height: 30px;
+    background: transparent url('../../assets/imgs/remove.png') 0% 0% no-repeat padding-box;
+    background-position: center;
+    border: 0ch;
+  }
+  
+  .td-edit {
+    height: 30px;
+    background: transparent url('../../assets/imgs/edit.png') 0% 0% no-repeat padding-box;
+    background-position: center;
+    border: 0ch;
+  }
+
+  td {
+    align-items: center;
+  }
+
+  .button-col {
+    margin-top: 30px;
+    align-items: flex-end;
+    top: 330px;
+    left: 1130px;
+    width: 176px;
+    height: 30px;
+    background: #5CAC21 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  
+  input {
+    height: 30px;
+  }
