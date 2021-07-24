@@ -1,6 +1,6 @@
 # PlataformaVerde2.0 - Formulário com ReactJS - Exemplo
 Exemplo de formulário dinâmico usando React e json-server, com tabela dinâmica carregando dados do JSON.
-Layout carrega em um container no Docker gerenciado com Docker-composer.
+Layout carrega em um container no Docker gerenciado com Docker-compose.
 
 ### Após clonar repositório, é necessário configurar o json-server (porta 3001), iniciado à partir do diretório backend.
 Essa solução JSON simula uma situação em que o Layout recebe informações de uma API REST.
